@@ -25,11 +25,11 @@
      --button-color-secondary: #952c0c;
 
      /* Cor de fundo */
-     --background-color: #fcf8f5;
+     --background-color: #fff2d9;
  }
 
  .container {
-     max-width: 50%;
+     max-width: 80%;
      margin: 20px auto;
      padding: 20px;
  }
@@ -39,7 +39,11 @@
      flex-direction: column;
      gap: 5px;
      position: relative;
+ }
 
+ .cart {   
+   
+    float: right;
  }
 
  .container h1 {
