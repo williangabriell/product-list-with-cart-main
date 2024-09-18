@@ -1,0 +1,107 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: var(--background-color);
+     font-family: 'Red Hat Text';
+ }
+
+
+ .red-hat-text-font {
+     font-family: "Red Hat Text", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: normal;
+ }
+
+ :root {
+     /* Cores das fontes */
+     --font-color-primary: #382d20;
+     --font-color-secondary: #a29e97;
+     --font-color-tertiary: #6c6865;
+
+     /* Cores dos botões */
+     --button-color-primary: #c83b0e;
+     --button-color-secondary: #952c0c;
+
+     /* Cor de fundo */
+     --background-color: #fcf8f5;
+ }
+
+ .container {
+     max-width: 50%;
+     margin: 20px auto;
+     padding: 20px;
+ }
+
+ .item {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     position: relative;
+
+ }
+
+ .container h1 {
+     margin-bottom: 30px;
+ }
+
+ .menu-items {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     position: relative;
+ }
+
+ .item img {
+     height: 220px;
+     border-radius: 12px;
+     margin-bottom: 20px;
+ }
+
+ .select-item {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .select-item button {
+     position: absolute;
+     bottom: 70px;
+ }
+
+ .cart-outline {
+     background-color: white;
+     color: var(--button-color-primary);
+     font-size: 18px;
+ }
+
+ .item button {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     cursor: pointer;
+
+
+
+     background-color: white;
+     height: 40px;
+     width: 130px;
+     border-radius: 50px;
+ }
+
+ .item span {
+     display: block;
+     font-size: 12px;
+     color: var(--font-color-secondary);
+ }
+
+ .item h3 {
+     font-size: 16px;
+     color: var(--font-color-primary);
+ }
+
+ .item p {
+     font-weight: bold;
+     color: var(--button-color-primary);
+ }
