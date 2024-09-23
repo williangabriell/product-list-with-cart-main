@@ -2,7 +2,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     background-color: var(--background-color);
+     /* background-color: var(--background-color); */
      font-family: 'Red Hat Text';
  }
 
@@ -27,10 +27,15 @@
      /* Cor de fundo */
      --background-color: #fff2d9;
  }
+ body {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background-color);
+    
+ }
 
  .container {
-     max-width: 90%;
-     padding: 20px;
+     max-width: 70%;
  }
 
  .item {
@@ -41,13 +46,19 @@
  }
 
  .cart {   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  font-size: 1em;
+  align-items: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
 
-    padding: 10px;
-   
-    float: right;
+ }
+ 
+ .cart img{
+    background-color: transparent;
  }
 
  .container h1 {
@@ -77,6 +88,7 @@
      position: absolute;
      bottom: 70px;
  }
+
 
  .cart-outline {
      background-color: white;
