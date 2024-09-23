@@ -1,9 +1,11 @@
-// importar data.json
-// importar entities/product.ts
-import {Product} from './entities/products'
-import data from '../data.json';
+import { Product } from "./entities/products";
+import data from "../data.json";
 
+const products: Product[] = [];
 
-console.log(data[0].name)
+for (let i = 0; i < data.length; i++) {
+    const product = new Product(data[i].name, data[i].price, data[i].category, data[i].image.desktop);
+    products.push(product);
 
-
+    product.toHtml()
+}
