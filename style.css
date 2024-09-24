@@ -2,7 +2,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     /* background-color: var(--background-color); */
+     background-color: var(--background-color);
      font-family: 'Red Hat Text';
  }
 
@@ -27,15 +27,11 @@
      /* Cor de fundo */
      --background-color: #fff2d9;
  }
- body {
-    display: flex;
-    justify-content: space-around;
-    background-color: var(--background-color);
-    
- }
 
  .container {
-     max-width: 70%;
+     max-width: 80%;
+     margin: 20px auto;
+     padding: 20px;
  }
 
  .item {
@@ -46,19 +42,8 @@
  }
 
  .cart {   
-  font-size: 1em;
-  align-items: center;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  margin: 20px;
-  border-radius: 10px;
-
- }
- 
- .cart img{
-    background-color: transparent;
+   
+    float: right;
  }
 
  .container h1 {
@@ -87,12 +72,7 @@
  .select-item button {
      position: absolute;
      bottom: 70px;
-
-     /* bottom: 0px;
-     left: 50%;
-     transform: translate(-50%, 50%); */
  }
-
 
  .cart-outline {
      background-color: white;
