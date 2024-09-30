@@ -17,6 +17,10 @@ export class Product {
     this._imageUrl = imageUrl;
   }
 
+  toHTML() {
+   
+  }
+
   get id() {
     return this._id;
   }
